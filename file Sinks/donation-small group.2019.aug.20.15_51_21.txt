@@ -1,0 +1,1 @@
+"tick","donation-normed-small","donation-small","donation-valued-small"

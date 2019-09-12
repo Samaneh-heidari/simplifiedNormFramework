@@ -1,0 +1,17 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>donation</name>
+  <dataSet>donation</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>donation-big group</string>
+    <string>donation-small</string>
+    <string>donation-normed-big</string>
+    <string>donation-normed-small</string>
+    <string>donation-valued-big</string>
+    <string>donation-valued-small</string>
+  </sourceIds>
+  <fileName>file Sinks\donation.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

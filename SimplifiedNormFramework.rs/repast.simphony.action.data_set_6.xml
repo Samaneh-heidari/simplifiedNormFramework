@@ -1,0 +1,39 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>donation by cluster</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>builder.DataCollector</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1238259567</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>NumOfDonatorsClusterBigGroup</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>NumOfDonatorsClusterBigGroup</id>
+        <className>builder.DataCollector</className>
+        <methodName>getNumOfDonatorsClusterBigGroup</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>NumOfDonatorsClusterSmallGroup</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>NumOfDonatorsClusterSmallGroup</id>
+        <className>builder.DataCollector</className>
+        <methodName>getNumOfDonatorsClusterSmallGroup</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

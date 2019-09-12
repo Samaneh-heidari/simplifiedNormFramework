@@ -1,0 +1,11 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>donation cluster_small</name>
+  <dataSet>donation by cluster</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>NumOfDonatorsClusterSmallGroup</string>
+  </sourceIds>
+  <fileName>file Sinks\donationCluster_small.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

@@ -1,0 +1,12 @@
+read from human population : 
+
+
+
+randomly assign lastdonation amount
+we need to assing a new place to agents
+
+|houses| > |population|
+
+check all the houstyp usages and add homeless
+
+agents move might move when they buy a house. chekc it

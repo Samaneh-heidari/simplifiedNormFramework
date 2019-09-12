@@ -1,0 +1,15 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>valued-population</name>
+  <dataSet>population</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>big-power</string>
+    <string>big-universalsim</string>
+    <string>small-power</string>
+    <string>small-universalsim</string>
+  </sourceIds>
+  <fileName>file Sinks\\valued-population.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

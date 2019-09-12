@@ -1,0 +1,12 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>donation cluster_big</name>
+  <dataSet>donation by cluster</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>NumOfDonatorsCluster</string>
+    <string>NumOfDonatorsClusterBigGroup</string>
+  </sourceIds>
+  <fileName>file Sinks\donationCluster_big.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
